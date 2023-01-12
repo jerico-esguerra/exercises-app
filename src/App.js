@@ -1,15 +1,15 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom"
 import {Box} from "@mui/material";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
 import "./App.css";
 
 function App() {
   return (
-    <Box>
+    <Box width="25rem">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
