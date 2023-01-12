@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Box width="25rem">
+    <Box width="25rem" sx={{width: {xl: "93rem"}}} m="auto">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
