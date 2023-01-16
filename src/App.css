@@ -77,16 +77,6 @@ body {
   height: 742px;
 }
 
-.hero-banner-img {
-  position: absolute;
-  right: 40px;
-  top: 0px;
-  width: 700px;
-  height: 900px;
-  margin-top: -330px;
-
-}
-
 .exercise-card {
   width: 400px;
   height: 445px;
@@ -114,11 +104,6 @@ body {
 .exercise-card:hover,
 .bodyPart-card:hover {
   transform: scale(1.1, 1.1);
-}
-
-.search-btn:hover {
-  color: #FF2625 !important;
-  border: 1px solid #FF2625 !important;
 }
 
 .exercise-video {
