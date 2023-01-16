@@ -1,6 +1,6 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
     box-sizing: border-box;
 
 }
@@ -11,13 +11,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 0rem;
 }
 
 .hero-banner-img {
     position: absolute;
     right: 2.5rem;
-    top: 0px;
+    top: 0rem;
     width: 43.75rem;
     height: 56.25;
     margin-top: -20.625rem;
@@ -25,16 +25,8 @@ body {
 
 .search-btn:hover {
     color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
+    border: 0.0625rem solid #FF2625 !important;
 }
-
-@media screen and (max-width:1200px) {
-    .hero-banner-img {
-        display: none;
-    }
-}
-
-/*NEW STYLES */
 
 .right-arrow,
 .left-arrow {
@@ -46,17 +38,17 @@ body {
   justify-content: center;
   align-items: center;
   color: #FF2625;
-  font-size: 25px;
-  border-radius: 4px;
+  font-size: 1.5625rem;
+  border-radius: 0.25rem;
   position: absolute;
-  bottom: -20px;
-  right: 80px;
+  bottom: -1.25rem;
+  right: 5rem;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
 
 .right-arrow {
-  right: 140px;
+  right: 8.75rem;
 }
 
 .right-arrow:hover,
@@ -73,27 +65,27 @@ body {
     overflow: hidden;
 }
 .detail-image {
-  width: 729px;
-  height: 742px;
+  width: 45.5625rem;
+  height: 46.375rem;
 }
 
 .exercise-card {
-  width: 400px;
-  height: 445px;
+  width: 25rem;
+  height: 27.8125rem;
   background: #fff;
-  border-top: 4px solid #FF2625;
-  border-bottom-left-radius: 20px;
+  border-top: 0.25rem solid #FF2625;
+  border-bottom-left-radius: 1.25rem;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
 
 .exercise-card img {
-  height: 326px;
+  height: 20.375rem;
 }
 
 .bodyPart-card {
@@ -109,9 +101,9 @@ body {
 .exercise-video {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  width: 387px;
-  height: 381px;
+  gap: 1.5rem;
+  width: 24.1875rem;
+  height: 23.8125rem;
   text-decoration: none;
 }
 
@@ -119,15 +111,15 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:75rem) {
   .detail-image {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
   }
 
 
   .react-horizontal-scrolling-menu--scroll-container {
-    width: 500px;
+    width: 31.25rem;
   }
 
   .left-arrow,
@@ -140,25 +132,27 @@ body {
   }
 
   .exercise-card {
-    width: 320px;
+    width: 20rem;
   }
 
   .exercise-video {
-    width: 320px;
-    height: 300px;
+    width: 20rem;
+    height: 18.75rem;
   }
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:25rem) {
   .exercise-card {
-    width: 280px;
+    width: 17.5rem;
   }
 }
 
+/*
 .css-67m1eg{
     position: relative;
     width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
 }
+*/
 

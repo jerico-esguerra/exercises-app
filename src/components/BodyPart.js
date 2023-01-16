@@ -8,14 +8,14 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     alignItems="center"
     justifyContent="center"
     className="bodyPart-card"
-    sx={bodyPart === item ? { borderTop: '4px solid #FF2625', background: '#fff', borderBottomLeftRadius: '20px', width: '270px', height: '282px', cursor: 'pointer', gap: '47px' } : { background: '#fff', borderBottomLeftRadius: '20px', width: '270px', height: '282px', cursor: 'pointer', gap: '47px' }}
+    sx={bodyPart === item ? { borderTop: '0.25rem solid #FF2625', background: '#fff', borderBottomLeftRadius: '1.25rem', width: '16.875rem', height: '17.625rem', cursor: 'pointer', gap: '2.9375rem' } : { background: '#fff', borderBottomLeftRadius: '1.25rem', width: '16.875rem', height: '17.625rem', cursor: 'pointer', gap: '2.9375rem' }}
     onClick={() => {
       setBodyPart(item);
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
     }}
   >
-    <img src={Icon} alt="dumbbell" style={{ width: '40px', height: '40px' }} />
-    <Typography fontSize="24px" fontWeight="bold" fontFamily="Alegreya" color="#3A1212" textTransform="capitalize"> {item}</Typography>
+    <img src={Icon} alt="dumbbell" style={{ width: '2.5rem', height: '2.5rem' }} />
+    <Typography fontSize="1.5rem" fontWeight="bold" fontFamily="Alegreya" color="#3A1212" textTransform="capitalize"> {item}</Typography>
   </Stack>
 );
 

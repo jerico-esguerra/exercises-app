@@ -24,23 +24,23 @@ const Detail = ({ exerciseDetail }) => {
   ];
 
   return (
-    <Stack gap="60px" sx={{ flexDirection: { lg: 'row' }, p: '20px', alignItems: 'center' }}>
+    <Stack gap="3.75rem" sx={{ flexDirection: { lg: 'row' }, p: '1.25rem', alignItems: 'center' }}>
       <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
-      <Stack sx={{ gap: { lg: '35px', xs: '20px' } }}>
-        <Typography sx={{ fontSize: { lg: '64px', xs: '30px' } }} fontWeight={700} textTransform="capitalize">
+      <Stack sx={{ gap: { lg: '2.1875rem', xs: '1.25rem' } }}>
+        <Typography sx={{ fontSize: { lg: '4rem', xs: '1.875rem' } }} fontWeight={700} textTransform="capitalize">
           {name}
         </Typography>
-        <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color="#4F4C4C">
+        <Typography sx={{ fontSize: { lg: '1.5rem', xs: '1.125rem' } }} color="#4F4C4C">
           Exercises keep you strong.{' '}
           <span style={{ textTransform: 'capitalize' }}>{name}</span> is one
           of the best exercises to target your {target}. It will help you improve your mood and gain energy.
         </Typography>
         {extraDetail?.map((item) => (
-          <Stack key={item.name} direction="row" gap="24px" alignItems="center">
-            <Button sx={{ background: '#FFF2DB', borderRadius: '50%', width: '100px', height: '100px' }}>
-              <img src={item.icon} alt={bodyPart} style={{ width: '50px', height: '50px' }} />
+          <Stack key={item.name} direction="row" gap="1.5rem" alignItems="center">
+            <Button sx={{ background: '#FFF2DB', borderRadius: '50%', width: '6.25rem', height: '6.25rem' }}>
+              <img src={item.icon} alt={bodyPart} style={{ width: '3.125rem', height: '3.125rem' }} />
             </Button>
-            <Typography textTransform="capitalize" sx={{ fontSize: { lg: '30px', xs: '20px' } }}>
+            <Typography textTransform="capitalize" sx={{ fontSize: { lg: '1.875rem', xs: '1.25rem' } }}>
               {item.name}
             </Typography>
           </Stack>
