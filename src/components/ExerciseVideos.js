@@ -4,7 +4,7 @@ import Loader from './Loader';
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
-
+ 
   return (
     <Box sx={{ marginTop: { lg: '12.6875rem', xs: '1.25rem' } }} p="1.25rem">
       <Typography sx={{ fontSize: { lg: '2.75rem', xs: '1.5625rem' } }} fontWeight={700} color="#000" mb="2.0625rem">
